@@ -1,3 +1,4 @@
+# This Java project to do follwing two tasks:
 ## Problem 1 Key Word in Context
 
 The goal of the Key Word in Context (KWIC) problem is to build a special kind of index for a document.  KWIC is often used as an example problem in software engineering.  Parnas treats this problem at length in the article ['On the criteria to be used in decomposing systems into modules'](https://dl.acm.org/citation.cfm?id=361623).  
