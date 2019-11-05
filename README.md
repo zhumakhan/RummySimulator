@@ -1,11 +1,3 @@
-# 361 Fall 2019, Homework 1
-
-This is a starter Java project for Homework 1.  The assignment has two problems: key word in context and a card game similar to rummy.  A description of each of the problems is given below.  
-
-Note that, in addition to this file, the project contains many hints and explanations in the form of javadoc comments.  You can use the command `mvn javadoc:javadoc` to compile the javadoc to HTML.  
-
-*Clone* this repository and import to your IDE to get started.  
-
 ## Problem 1 Key Word in Context
 
 The goal of the Key Word in Context (KWIC) problem is to build a special kind of index for a document.  KWIC is often used as an example problem in software engineering.  Parnas treats this problem at length in the article ['On the criteria to be used in decomposing systems into modules'](https://dl.acm.org/citation.cfm?id=361623).  
