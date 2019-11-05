@@ -3,11 +3,9 @@
 
 The goal of the Key Word in Context (KWIC) problem is to build a special kind of index for a document.  KWIC is often used as an example problem in software engineering.  Parnas treats this problem at length in the article ['On the criteria to be used in decomposing systems into modules'](https://dl.acm.org/citation.cfm?id=361623).  
 
-A KWIC index, also called a concordance, is an index to a document where the entries, listed alphabetically, also include some of the context (i.e. the words surrounding the entry).  This repository contains an example KWIC index for a short text document implemented as linked HTML files.  The example consists of three files.  
+A KWIC index, also called a concordance, is an index to a document where the entries, listed alphabetically, also include some of the context (i.e. the words surrounding the entry). The input consists of one file:  
 
-- `LongtestText.txt`: the original document, a short sample from the novel Frankenstein by Mary Shelley (public domain)
-- `LongtestText.html`: an HTML version of the same text
-- `LongtestText.html`: KWIC index as an HTML file linked to `frankensteinsample.html` (Note: since the sample is short enough to fit on a single screen we won't see the effect of the named anchor links. These files are included to show how your program should format HTML output.  I have also made a larger KWIC example available on the moodle.)
+- `LongtestText.txt`: just some text 
 
 As shown in the example, your program should be able to read in a `.txt` document and produce two HTML files: an HTML version of the original text, and an HTML KWIC index that links into the previous file.  
 
